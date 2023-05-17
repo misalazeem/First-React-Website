@@ -1,0 +1,176 @@
+body {
+  font-family: Inter;
+  background-color: #000 !important;
+  color: #fff !important;
+}  
+
+.header {
+  display: flex;  
+  padding: 0 5%;
+  width: 100% !important;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  left: 0;
+  right: 0;
+  padding: 0 5%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.menu a:hover {
+  color: #d3d3d3;
+}
+
+.hero {
+  padding: 5% 0;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 2em;
+  color: #fff;
+  padding: 5% 15%;
+  letter-spacing: 0.02em;
+}
+
+.hero p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 12%;
+  line-height: 32px;
+}
+
+.projects {
+  padding: 10% 0;
+}
+
+.projects h2 {
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.image-container {
+  width: 100%;
+  background-image: url(../../public/assets/mogc-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.project-details {
+  width: 100%;
+  padding: 2% 10%;
+  color: #000;
+  background-color: rgb(255,255,255,0.6);
+}
+
+.project-details h3 {
+  font-weight: 700;
+}
+
+.project-details p {
+  font-weight: 400;
+}
+
+.see-details {
+  margin: 2% auto;
+  background-color: rgb(255,255,255,0.6);
+  border: 5px solid #000;
+  display: block;
+}
+
+.modal-box {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  position: fixed;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.4)
+}
+
+.modal-box-inner {
+  width: 90%;
+  height: 90vh;
+  margin: 10% auto;
+  background-color: #000;
+  border: 3px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.modal-box-inner img {
+  padding: 0;
+  width: 60%;
+}
+
+.modal-box-inner h3 {
+  padding: 2% 5%;
+  color: #fff;
+}
+
+.modal-box-inner p {  
+  padding: 2% 5%;
+  color: #fff;
+}
+
+.modal-close {
+  display: block;
+  width: 100%;
+  padding: 5% 5%;
+  margin-right: 5%;
+}
+
+.close-icon {
+  float: right !important;
+}
+
+.project-buttons {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-inner-buttons {
+  border: 2px solid #fff;
+  padding: 0 5px;
+  color: #fff;
+  text-decoration: none;
+}
